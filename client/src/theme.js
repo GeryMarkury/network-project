@@ -30,7 +30,7 @@ export const colorTokens = {
 
 export const themeSettings = (mode) => {
     return {
-        pallete: {
+        palette: {
             mode: mode,
             ...(mode === "dark" ? {
                 primary: {
