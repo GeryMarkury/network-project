@@ -109,7 +109,7 @@ const Form = () => {
 			}) => (
 				<form onSubmit={handleSubmit}>
 					<Box
-						dissplay="grid"
+						display="grid"
 						gap="30px"
 						gridTemplateColumns="repeat(4, minmax(0, 1fr))"
 						sx={{
@@ -159,7 +159,7 @@ const Form = () => {
 									sx={{ gridColumn: "span 4" }}
 								/>
 								<Box
-									gridColumn="span4"
+									gridColumn="span 4"
 									border={`1px solid ${palette.neutral.medium}`}
 									borderRadius="5px"
 									p="1rem"
