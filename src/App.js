@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className="app">
-			<BrowserRouter basename="https://fluffy-crisp-b8d4a6.netlify.app">
+			<BrowserRouter>
 				<ThemeProvider theme={theme}>
 					<CssBaseline />
 					<Routes>
