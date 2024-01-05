@@ -45,7 +45,7 @@ const FriendListWidget = ({ userId }) => {
 			>
 				{friends.map(friend => (
 					<Friend
-						key={friend.id}
+						key={friend._id}
 						friendId={friend._id}
 						name={`${friend.firstName} ${friend.lastName}`}
 						subtitle={friend.occupation}
