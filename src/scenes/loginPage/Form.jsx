@@ -41,6 +41,7 @@ const initialValuesLogin = {
 
 const Form = () => {
 	const [pageType, setPageType] = useState("login");
+	const [isLoading, setIsLoading] = useState(false);
 	const { palette } = useTheme();
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
