@@ -11,7 +11,7 @@ const UserImage = ({ image, size = "60px" }) => {
 				width={size}
 				height={size}
 				alt="user"
-				src={`https://network-server-hmarkov.onrender.com/assets/${image}`}
+				src={image}
 			/>
 		</Box>
 	);
