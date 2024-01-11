@@ -1,4 +1,6 @@
 import { Box } from "@mui/material";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const UserImage = ({ image, size = "60px" }) => {
 	return (
@@ -6,12 +8,13 @@ const UserImage = ({ image, size = "60px" }) => {
 			width={size}
 			height={size}
 		>
-			<img
-				style={{ objectFit: "cover", borderRadius: "50%" }}
+			<LazyLoadImage
 				width={size}
 				height={size}
 				alt="user"
+				effect="opacity"
 				src={image}
+				style={{ objectFit: "cover", borderRadius: "50%" }}
 			/>
 		</Box>
 	);

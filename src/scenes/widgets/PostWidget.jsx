@@ -11,6 +11,8 @@ import WidgetWrapper from "components/WidgetWrapper";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPost } from "state";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const PostWidget = ({
 	postId,
@@ -65,12 +67,13 @@ const PostWidget = ({
 				{description}
 			</Typography>
 			{picturePath && (
-				<img
+				<LazyLoadImage
 					width="100%"
 					height="auto"
 					alt="post"
-					style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
+					effect="opacity"
 					src={picturePath}
+					style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
 				/>
 			)}
 			<FlexBetween mt="0.25rem">
