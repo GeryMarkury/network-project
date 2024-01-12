@@ -20,5 +20,5 @@ is responsive and includes both light and dark modes, which can be switched on t
 - Node.js <a href="https://nodejs.org/" target="_blank"><img src="https://logowik.com/content/uploads/images/nodejs-icon.jpg" alt="node.js logo" width="auto" height="40"/></a>
 - Express <a href="https://expressjs.com/" target="_blank"><img src="https://www.svgrepo.com/show/330398/express.svg" alt="express logo" width="40" height="40"/></a>
 - Mongo DB <a href="https://www.mongodb.com/" target="_blank"><img src="https://www.svgrepo.com/download/331488/mongodb.svg" alt="mongo DB logo" width="40" height="40"/></a>
-- Cloudinary <a href="https://cloudinary.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" alt="cloudinary logo" width="40" height="40"/></a>
+- Cloudinary <a href="https://cloudinary.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" alt="cloudinary logo" width="70" height="40"/></a>
 
