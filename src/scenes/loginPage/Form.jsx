@@ -9,6 +9,7 @@ import { setLogin } from "state";
 import Dropzone from "react-dropzone";
 import FlexBetween from "components/FlexBetween";
 import { Loader } from "components/Loader";
+import { Report } from "notiflix/build/notiflix-report-aio";
 
 const registerSchema = yup.object().shape({
 	firstName: yup.string().required("required"),
@@ -70,6 +71,11 @@ const Form = () => {
 
 		if (savedUser) {
 			setPageType("login");
+			Report.success("Registration completed!", "Now please log in with your credentials.", "OK", {
+				backOverlayColor: "rgba(0, 0, 0, 0.5)",
+				fontFamily: "Rubik",
+				backOverlayClickToClose: true,
+			});
 		}
 		setIsLoading(false);
 	};
